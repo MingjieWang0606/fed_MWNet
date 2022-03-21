@@ -18,6 +18,7 @@ ourmodel:0.681400
 | simple-cnn | cifar10  | moon   | 67.24    |
 | simple-cnn | cifar10  | moon   | 68.03    |
 | simple-cnn | cifar10  | meta   | 68.14    |
+| simple-cnn | cifar10  | meta   | 68.12*    |
 |     \      |     \    |   \    |     \    |
 | simple-cnn | cifar100 | moon   | 31.18    |
 | simple-cnn | cifar100 | moon   | 31.25    |
@@ -28,6 +29,9 @@ ourmodel:0.681400
 | resnet50   | cifar100 | meta   | 68.86    |
 |     \      |     \    |   \    |     \    |
 | resnet50   | tinyimagenet | meta   | 22.00    |
+| resnet50   | tinyimagenet | meta   | 23.28*    |
 | resnet50   | tinyimagenet | fedavg   | 21.56    |
 | resnet50   | tinyimagenet | moon   | running    |
+
+*为调整了25个epoch 其他的均为5个epoch
 
