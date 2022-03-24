@@ -33,5 +33,5 @@ ourmodel:0.681400
 | resnet50   | tinyimagenet | fedavg   | 21.56    |
 | resnet50   | tinyimagenet | moon   | running    |
 
-*为调整了25个epoch 其他的均为5个epoch
+*为meta MLP调整了25个epoch 其他的均为5个epoch
 
